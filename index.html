@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCPSC IT FEST 2026 - Official Tech Carnival</title>
+    <link rel="icon" type="image/x-icon" href="festlogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-themes.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo-link" aria-label="Go to home page">
+                <div class="nav-logo">
+                    <img src="festlogo.png" alt="FEST 2026 Logo Dark" class="logo-img logo-dark">
+                    <img src="logo2.png" alt="FEST 2026 Logo Light" class="logo-img logo-light">
+                </div>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+                <li class="nav-item"><a href="rules.html" class="nav-link">Rulebook</a></li>
+                <li class="nav-item"><a href="register.html" class="nav-link">Register</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>            <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle theme">
+                🌙
+            </button>            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-logo-container">
+                <img src="festlogo.png" alt="SCPSC IT FEST 2026 Logo Dark" class="hero-logo logo-dark">
+                <img src="logo2.png" alt="SCPSC IT FEST 2026 Logo Light" class="hero-logo logo-light">
+            </div>
+            <h1 class="hero-title">SCPSC IT FEST</h1>
+            <h1 class="hero-title highlight">2026</h1>
+            <p class="hero-subtitle">Official Tech Carnival</p>
+            <p class="hero-description">
+                Unleash your potential in the ultimate tech competition. 
+                Compete, create, and conquer with the brightest minds in technology.
+            </p>
+            <div class="hero-buttons">
+                <a href="events.html" class="btn btn-primary">Explore Events</a>
+                <a href="register.html" class="btn btn-secondary">Register Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown Timer -->
+    <section class="countdown-section">
+        <div class="countdown-container">
+            <h2>Event Starts In</h2>
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <div class="countdown-number" id="days">00</div>
+                    <div class="countdown-label">Days</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="hours">00</div>
+                    <div class="countdown-label">Hours</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="minutes">00</div>
+                    <div class="countdown-label">Minutes</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="seconds">00</div>
+                    <div class="countdown-label">Seconds</div>
+                </div>
+            </div>
+            <p class="countdown-date">April 9–11, 2026</p>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="highlights-section">
+        <h2 class="section-title">Why Participate?</h2>
+        <div class="highlights-grid">
+            <div class="highlight-card reveal-on-scroll">
+                <div class="card-icon">🏆</div>
+                <h3>7 Exciting Events</h3>
+                <p>Compete in PUBG, E-Football, Programming, Quiz, Treasure Hunt, Multimedia, and Photography</p>
+            </div>
+            <div class="highlight-card reveal-on-scroll">
+                <div class="card-icon">💰</div>
+                <h3>Amazing Prizes</h3>
+                <p>Exciting rewards and recognition for top performers across all events</p>
+            </div>
+            <div class="highlight-card reveal-on-scroll">
+                <div class="card-icon">🌟</div>
+                <h3>Network & Learn</h3>
+                <p>Meet talented developers, designers, and tech enthusiasts from around the region</p>
+            </div>
+            <div class="highlight-card reveal-on-scroll">
+                <div class="card-icon">⚡</div>
+                <h3>Real Competition</h3>
+                <p>Challenge yourself in a professional environment with fair and transparent judging</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Preview -->
+    <section class="events-preview-section">
+        <h2 class="section-title">Featured Events</h2>
+        <div class="events-preview-grid">
+            <div class="event-preview-card reveal-on-scroll">
+                <div class="event-preview-icon">🎮</div>
+                <h3>PUBG Mobile</h3>
+                <p>Team-based competitive gaming with tournament structure</p>
+                <span class="event-type">Qualifier & Final</span>
+            </div>
+            <div class="event-preview-card reveal-on-scroll">
+                <div class="event-preview-icon">💻</div>
+                <h3>Programming</h3>
+                <p>Problem-solving contest in C/C++/Python</p>
+                <span class="event-type">2 Days</span>
+            </div>
+            <div class="event-preview-card reveal-on-scroll">
+                <div class="event-preview-icon">🧠</div>
+                <h3>Tech Quiz</h3>
+                <p>Challenge your tech knowledge with comprehensive questions</p>
+                <span class="event-type">Single Round</span>
+            </div>
+            <div class="event-preview-card reveal-on-scroll">
+                <div class="event-preview-icon">⚽</div>
+                <h3>E-Football</h3>
+                <p>1v1 gaming tournament with knockout stages</p>
+                <span class="event-type">3 Days</span>
+            </div>
+            <div class="event-preview-card reveal-on-scroll">
+                <div class="event-preview-icon">🗺️</div>
+                <h3>Treasure Hunt</h3>
+                <p>Team-based adventure solving clues across locations</p>
+                <span class="event-type">Single Round</span>
+            </div>
+            <div class="event-preview-card reveal-on-scroll">
+                <div class="event-preview-icon">🎤</div>
+                <h3>Multimedia</h3>
+                <p>Present your creative tech startup ideas</p>
+                <span class="event-type">Submission & Presentation</span>
+            </div>
+            <div class="event-preview-card reveal-on-scroll">
+                <div class="event-preview-icon">📸</div>
+                <h3>Photography</h3>
+                <p>Showcase tech creativity through meaningful photographs</p>
+                <span class="event-type">Submission & Exhibition</span>
+            </div>
+            <div class="event-preview-card reveal-on-scroll">
+                <div class="event-preview-icon">🔥</div>
+                <h3>Free Fire</h3>
+                <p>Squad-based battle royale tournament with exciting prizes</p>
+                <span class="event-type">Squad Tournament</span>
+            </div>
+        </div>
+        <div class="center-button reveal-on-scroll">
+            <a href="events.html" class="btn btn-primary">View All Events</a>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Ready to Join the Fest?</h2>
+        <p>Register now and secure your spot in one of our premium events</p>
+        <a href="register.html" class="btn btn-primary btn-large">Register Today</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About FEST</h4>
+                <p>SCPSC IT FEST 2026 is the premier tech carnival bringing together competitive gaming, programming, and creative challenges.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="rules.html">Rulebook</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:scpscitclubofficial@gmail.com">scpscitclubofficial@gmail.com</a></p>
+                <p>Event Dates: April 9–11, 2026</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SCPSC IT FEST. All rights reserved.</p>
+            <p>Designed & Developed by Shan</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

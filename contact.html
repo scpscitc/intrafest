@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - SCPSC IT FEST 2026</title>
+    <link rel="icon" type="image/x-icon" href="festlogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-themes.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo-link" aria-label="Go to home page">
+                <div class="nav-logo">
+                    <img src="festlogo.png" alt="FEST 2026 Logo Dark" class="logo-img logo-dark">
+                    <img src="logo2.png" alt="FEST 2026 Logo Light" class="logo-img logo-light">
+                </div>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+                <li class="nav-item"><a href="rules.html" class="nav-link">Rulebook</a></li>
+                <li class="nav-item"><a href="register.html" class="nav-link">Register</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle theme">
+                🌙
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Background Animation -->
+    <div class="background-animation">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Get In Touch</h1>
+        <p>Have questions? We'd love to hear from you</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            
+            <!-- Contact Cards -->
+            <div class="contact-cards-grid reveal-on-scroll">
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <p>Reach out to us for any inquiries regarding registration, events, or sponsorship.</p>
+                    <a href="mailto:scpscitclubofficial@gmail.com" class="contact-link">
+                        scpscitclubofficial@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Venue</h3>
+                    <p>Final events will be held at the school IT Lab and designated campus locations.</p>
+                    <p class="venue-date">April 9–11, 2026</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">⏰</div>
+                    <h3>Response Time</h3>
+                    <p>We typically respond to all inquiries within 24 hours. Check your spam folder just in case!</p>
+                </div>
+            </div>
+
+            <!-- Main Contact Content -->
+            <div class="contact-main reveal-on-scroll">
+                <div class="contact-form-wrapper">
+                    <div class="contact-form-content">
+                        <h2>Send us a Message</h2>
+                        <p>Use the form below to get in touch. We'll respond as soon as possible!</p>
+                        
+                        <form class="contact-form" id="contactForm" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="Registration Help">Registration Help</option>
+                                    <option value="Event Question">Event Question</option>
+                                    <option value="Technical Issue">Technical Issue</option>
+                                    <option value="Rule Clarification">Rule Clarification</option>
+                                    <option value="Sponsorship">Sponsorship</option>
+                                    <option value="Other">Other Inquiry</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                        </form>
+
+                        <p class="form-note">
+                            Fields marked with * are required. We'll never share your information with third parties.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Event Info Box -->
+                <div class="contact-info-box reveal-on-scroll">
+                    <h3>Event Information</h3>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <span class="info-label">Official Email:</span>
+                            <span class="info-value">
+                                <a href="mailto:scpscitclubofficial@gmail.com">scpscitclubofficial@gmail.com</a>
+                            </span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Submission Email:</span>
+                            <span class="info-value">
+                                For Multimedia & Photography: <a href="mailto:scpscitclubofficial@gmail.com">scpscitclubofficial@gmail.com</a>
+                            </span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Event Dates:</span>
+                            <span class="info-value">April 9–11, 2026</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Registration Deadline:</span>
+                            <span class="info-value">April 8, 11:59 PM</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Total Events:</span>
+                            <span class="info-value">7 Exciting Competitions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-section reveal-on-scroll">
+                <h2>Follow Us</h2>
+                <p>Stay updated with the latest news and announcements</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61565419410385" target="_blank" class="social-link facebook" title="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a6 6 0 0 0-6 6v3H7v4h3v8h4v-8h3l1-4h-4V8a2 2 0 0 1 2-2h1z"></path>
+                        </svg>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/scpsc_it_club/" target="_blank" class="social-link instagram" title="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <circle cx="17.5" cy="6.5" r="1.5"></circle>
+                        </svg>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section-contact reveal-on-scroll">
+                <h2>Common Questions</h2>
+                <div class="faq-list">
+                    <details class="faq-item-contact">
+                        <summary>Where can I register for the events?</summary>
+                        <p>You can register online through our registration form at <a href="register.html">register</a>. The registration deadline is April 8, 2026.</p>
+                    </details>
+
+                    <details class="faq-item-contact">
+                        <summary>How do I submit my Multimedia presentation or Photography?</summary>
+                        <p>Email your submission to <strong>scpscitclubofficial@gmail.com</strong> with the subject line as specified in the rulebook. Submission deadline is April 10, 2026 before 5:00 PM.</p>
+                    </details>
+
+                    <details class="faq-item-contact">
+                        <summary>What should I bring to the venue?</summary>
+                        <p>Check the specific event rules in our Rulebook. Generally, bring your own mobile phone, headphones, and data. Laptops and projectors are provided for specific events.</p>
+                    </details>
+
+                    <details class="faq-item-contact">
+                        <summary>Can I participate as an individual in team events?</summary>
+                        <p>Yes, for PUBG and Treasure Hunt, individual registrations are accepted and you'll be grouped with other participants.</p>
+                    </details>
+
+                    <details class="faq-item-contact">
+                        <summary>How will I know if I've qualified for the finals?</summary>
+                        <p>Results will be notified via email and announced on our social media channels within 24 hours of the qualifying event.</p>
+                    </details>
+
+                    <details class="faq-item-contact">
+                        <summary>What if there's a scheduling conflict?</summary>
+                        <p>Contact us immediately at <strong>scpscitclubofficial@gmail.com</strong> with your registration ID and we'll try to accommodate you if possible.</p>
+                    </details>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About FEST</h4>
+                <p>SCPSC IT FEST 2026 is the premier tech carnival bringing together competitive gaming, programming, and creative challenges.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="rules.html">Rulebook</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:scpscitclubofficial@gmail.com">scpscitclubofficial@gmail.com</a></p>
+                <p>Event Dates: April 9–11, 2026</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SCPSC IT FEST. All rights reserved.</p>
+            <p>Designed & Developed by Shan</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

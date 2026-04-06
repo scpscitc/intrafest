@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - SCPSC IT FEST 2026</title>
+     <link rel="icon" type="image/x-icon" href="festlogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-themes.css">
+    
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo-link" aria-label="Go to home page">
+                <div class="nav-logo">
+                    <img src="festlogo.png" alt="FEST 2026 Logo Dark" class="logo-img logo-dark">
+                    <img src="logo2.png" alt="FEST 2026 Logo Light" class="logo-img logo-light">
+                </div>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="events.html" class="nav-link active">Events</a></li>
+                <li class="nav-item"><a href="rules.html" class="nav-link">Rulebook</a></li>
+                <li class="nav-item"><a href="register.html" class="nav-link">Register</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle theme">
+                🌙
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Background Animation -->
+    <div class="background-animation">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>All Events</h1>
+        <p>Discover 8 exciting competitive events at SCPSC IT FEST 2026</p>
+    </section>
+
+    <!-- Events Grid -->
+    <section class="events-section">
+        <div class="events-grid">
+            <!-- PUBG Mobile -->
+            <div class="event-card reveal-on-scroll">
+                <div class="event-card-icon">🎮</div>
+                <h3 class="event-title">PUBG Mobile (Duo)</h3>
+                <div class="event-meta">
+                    <span class="badge">Team Event</span>
+                    <span class="badge">2 Members</span>
+                </div>
+                <div class="event-details">
+                    <h4>Tournament Structure</h4>
+                    <ul>
+                        <li><strong>Qualifiers:</strong> April 10, 9:00 PM</li>
+                        <li><strong>Final:</strong> April 11 (At Venue)</li>
+                        <li><strong>Maps:</strong> Livik & Nusa</li>
+                        <li><strong>Point System:</strong> Placement + Kills</li>
+                    </ul>
+                </div>
+                <div class="event-description">
+                    Compete in intense squad matches. Highest scoring teams advance from qualifiers to the finals.
+                </div>
+                <a href="rules.html#pubg" class="btn btn-tertiary">View Rules</a>
+            </div>
+
+            <!-- Tech Quiz -->
+            <div class="event-card reveal-on-scroll">
+                <div class="event-card-icon">🧠</div>
+                <h3 class="event-title">Tech Quiz</h3>
+                <div class="event-meta">
+                    <span class="badge">Individual</span>
+                    <span class="badge">April 11</span>
+                </div>
+                <div class="event-details">
+                    <h4>Coverage</h4>
+                    <ul>
+                        <li><strong>Time:</strong> 2:00 PM – 2:30 PM</li>
+                        <li><strong>Venue:</strong> School Hall</li>
+                        <li><strong>Topics:</strong> ICT, AI, Cybersecurity, Programming</li>
+                        <li><strong>Duration:</strong> 30 minutes</li>
+                    </ul>
+                </div>
+                <div class="event-description">
+                    Test your tech knowledge across AI, cybersecurity, programming, and general tech topics.
+                </div>
+                <a href="rules.html#quiz" class="btn btn-tertiary">View Rules</a>
+            </div>
+
+            <!-- Programming Contest -->
+            <div class="event-card reveal-on-scroll">
+                <div class="event-card-icon">💻</div>
+                <h3 class="event-title">Programming Contest</h3>
+                <div class="event-meta">
+                    <span class="badge">Individual</span>
+                    <span class="badge">2 Days</span>
+                </div>
+                <div class="event-details">
+                    <h4>Schedule</h4>
+                    <ul>
+                        <li><strong>Day 1:</strong> April 9 (Problem-solving)</li>
+                        <li><strong>Day 2:</strong> April 11 (Final Round)</li>
+                        <li><strong>Location:</strong> IT Lab</li>
+                        <li><strong>Languages:</strong> C/C++/Python</li>
+                    </ul>
+                </div>
+                <div class="event-description">
+                    Showcase your coding skills through challenging problem-solving across multiple rounds.
+                </div>
+                <a href="rules.html#programming" class="btn btn-tertiary">View Rules</a>
+            </div>
+
+            <!-- Multimedia Presentation -->
+            <div class="event-card reveal-on-scroll">
+                <div class="event-card-icon">🎤</div>
+                <h3 class="event-title">Multimedia Presentation</h3>
+                <div class="event-meta">
+                    <span class="badge">Solo</span>
+                    <span class="badge">PPTX Format</span>
+                </div>
+                <div class="event-details">
+                    <h4>Requirements</h4>
+                    <ul>
+                        <li><strong>Topic:</strong> Tech Startup Ideas</li>
+                        <li><strong>Submission:</strong> Email by April 10</li>
+                        <li><strong>Presentation:</strong> April 11 (Final Day)</li>
+                        <li><strong>Judging:</strong> Skill, Creativity, Uniqueness</li>
+                    </ul>
+                </div>
+                <div class="event-description">
+                    Present your innovative tech startup concept with power and persuasion.
+                </div>
+                <a href="rules.html#multimedia" class="btn btn-tertiary">View Rules</a>
+            </div>
+
+            <!-- Photography -->
+            <div class="event-card reveal-on-scroll">
+                <div class="event-card-icon">📸</div>
+                <h3 class="event-title">Photography</h3>
+                <div class="event-meta">
+                    <span class="badge">Individual</span>
+                    <span class="badge">Email Submit</span>
+                </div>
+                <div class="event-details">
+                    <h4>Details</h4>
+                    <ul>
+                        <li><strong>Submission:</strong> Email by April 10</li>
+                        <li><strong>Requirement:</strong> Original & Meaningful Photos</li>
+                        <li><strong>Exhibition:</strong> April 11 Gallery Display</li>
+                        <li><strong>Criteria:</strong> Creativity & Deep Meaning</li>
+                    </ul>
+                </div>
+                <div class="event-description">
+                    Share your creative vision through photography. Selected works displayed in exhibition.
+                </div>
+                <a href="rules.html#photography" class="btn btn-tertiary">View Rules</a>
+            </div>
+
+            <!-- Treasure Hunt -->
+            <div class="event-card reveal-on-scroll">
+                <div class="event-card-icon">🗺️</div>
+                <h3 class="event-title">Treasure Hunt</h3>
+                <div class="event-meta">
+                    <span class="badge">Team Event</span>
+                    <span class="badge">3 Members</span>
+                </div>
+                <div class="event-details">
+                    <h4>Overview</h4>
+                    <ul>
+                        <li><strong>Team Size:</strong> 3 members per team</li>
+                        <li><strong>Location:</strong> Campus adventure</li>
+                        <li><strong>Registration:</strong> On-site booth</li>
+                        <li><strong>Winning:</strong> Speed & Accuracy</li>
+                    </ul>
+                </div>
+                <div class="event-description">
+                    Navigate campus clues, solve puzzles, and reach the final challenge. Teamwork is key!
+                </div>
+                <a href="rules.html#treasure" class="btn btn-tertiary">View Rules</a>
+            </div>
+
+            <!-- E-Football -->
+            <div class="event-card reveal-on-scroll">
+                <div class="event-card-icon">⚽</div>
+                <h3 class="event-title">E-Football (1v1)</h3>
+                <div class="event-meta">
+                    <span class="badge">Individual</span>
+                    <span class="badge">3 Days</span>
+                </div>
+                <div class="event-details">
+                    <h4>Tournament</h4>
+                    <ul>
+                        <li><strong>Rounds:</strong> Online April 9-10 | Finals April 11</li>
+                        <li><strong>Format:</strong> Groups → Quarterfinals → Finals</li>
+                        <li><strong>Match Time:</strong> 7 minutes (+ Extra Time)</li>
+                        <li><strong>Platform:</strong> EA Sports</li>
+                    </ul>
+                </div>
+                <div class="event-description">
+                    Battle opponents in competitive football simulation. Rise from groups to championship glory.
+                </div>
+                <a href="rules.html#football" class="btn btn-tertiary">View Rules</a>
+            </div>
+
+            <!-- Free Fire Tournament -->
+            <div class="event-card reveal-on-scroll">
+                <div class="event-card-icon">🎮</div>
+                <h3 class="event-title">Free Fire (Squad)</h3>
+                <div class="event-meta">
+                    <span class="badge">Team Event</span>
+                    <span class="badge">4 Members</span>
+                </div>
+                <div class="event-details">
+                    <h4>Tournament Structure</h4>
+                    <ul>
+                        <li><strong>Day 1:</strong> April 9 (Elimination Round)</li>
+                        <li><strong>Day 2:</strong> April 10 (Semi-Finals)</li>
+                        <li><strong>Day 3:</strong> April 11 (Grand Finale - Offline)</li>
+                        <li><strong>Maps:</strong> Bermuda, Purgatory, Kalahari</li>
+                    </ul>
+                </div>
+                <div class="event-description">
+                    Squad up and battle royale! Compete across 3 intense days. Top squads win prizes and glory.
+                </div>
+                <a href="rules.html#freefire" class="btn btn-tertiary">View Rules</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration CTA -->
+    <section class="cta-section">
+        <h2>Ready to Compete?</h2>
+        <p>Sign up for any of these exciting events and prove your skills</p>
+        <a href="register.html" class="btn btn-primary btn-large">Register Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About FEST</h4>
+                <p>SCPSC IT FEST 2026 is the premier tech carnival bringing together competitive gaming, programming, and creative challenges.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="rules.html">Rulebook</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: <a href="mailto:scpscitclubofficial@gmail.com">scpscitclubofficial@gmail.com</a></p>
+                <p>Event Dates: April 9–11, 2026</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SCPSC IT FEST. All rights reserved.</p>
+            <p>Designed & Developed by Shan</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
